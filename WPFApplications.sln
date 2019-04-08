@@ -35,11 +35,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTheGradientCenter", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateTheGradientOrigin", "RotateTheGradientOrigin\RotateTheGradientOrigin.csproj", "{F6409601-3EE0-4CA7-8411-B99C47E9FB9B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 1", "Chapter 1", "{5A3BED08-7EAB-48CA-8279-D623141EF44F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 01", "Chapter 01", "{5A3BED08-7EAB-48CA-8279-D623141EF44F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 2", "Chapter 2", "{4B7831B5-A3FC-4604-AD91-D47C8E0B4AD9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 02", "Chapter 02", "{4B7831B5-A3FC-4604-AD91-D47C8E0B4AD9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 3", "Chapter 3", "{2E60E85F-EEDC-4DEF-BEBD-3F53681A5F5D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 03", "Chapter 03", "{2E60E85F-EEDC-4DEF-BEBD-3F53681A5F5D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplaySomeText", "DisplaySomeText\DisplaySomeText.csproj", "{6C589650-1E14-4D70-8AF0-B86FE7619552}"
 EndProject
@@ -55,7 +55,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToggleBoldAndItalic", "Togg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderTheGraphic", "RenderTheGraphic\RenderTheGraphic.csproj", "{289B74EC-697F-4A89-8630-1FA98956218F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 4", "Chapter 4", "{3F7B97C4-033B-4514-B623-936B995B0364}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 04", "Chapter 04", "{3F7B97C4-033B-4514-B623-936B995B0364}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTheButton", "ClickTheButton\ClickTheButton.csproj", "{C86BAF60-A3D6-4FBF-B704-2C28E27E5CF7}"
 EndProject
@@ -75,7 +75,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditSomeText", "EditSomeTex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditSomeRichText", "EditSomeRichText\EditSomeRichText.csproj", "{4EE17FD2-288E-4A53-AA18-4CCEFC79F64A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 5", "Chapter 5", "{21556F3F-FA0C-484B-A525-DA2E4E77C830}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 05", "Chapter 05", "{21556F3F-FA0C-484B-A525-DA2E4E77C830}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackTenButtons", "StackTenButtons\StackTenButtons.csproj", "{B50DBF0E-8D30-4907-B1D3-C38CA4058D87}"
 EndProject
@@ -89,7 +89,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuneTheRadio", "TuneTheRadi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreDirectories", "ExploreDirectories\ExploreDirectories.csproj", "{188CCCF7-8B9A-4D19-86F3-D575754D07F9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 6", "Chapter 6", "{AE2464FC-4C57-4F53-A2DF-C09DAB0F6BB6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 06", "Chapter 06", "{AE2464FC-4C57-4F53-A2DF-C09DAB0F6BB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockAroundTheBlock", "DockAroundTheBlock\DockAroundTheBlock.csproj", "{AA11BECA-3307-4375-86A8-DFFD166F590F}"
 EndProject
@@ -112,15 +112,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitTheClient", "SplitTheC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollCustomColors", "ScrollCustomColors\ScrollCustomColors.csproj", "{4EDDCE9B-D362-4012-998C-DA2A8B59C6BF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 7", "Chapter 7", "{C511FC3B-C2B7-4AB9-81FC-4DE3040F4D5C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 07", "Chapter 07", "{C511FC3B-C2B7-4AB9-81FC-4DE3040F4D5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintTheButton", "PaintTheButton\PaintTheButton.csproj", "{C2224B04-8A50-4A43-A23A-A952ED83C91C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayJeuDeTacquin", "PlayJeuDeTacquin\PlayJeuDeTacquin.csproj", "{8979535E-F986-4B0C-8932-C577C037D1C4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 8", "Chapter 8", "{03455C97-77DF-43DD-9B96-A2894D046DF8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 08", "Chapter 08", "{03455C97-77DF-43DD-9B96-A2894D046DF8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 9", "Chapter 9", "{222F4C4B-E20B-439B-9DFA-2C607F1FED2A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 09", "Chapter 09", "{222F4C4B-E20B-439B-9DFA-2C607F1FED2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetFontSizeProperty", "SetFontSizeProperty\SetFontSizeProperty.csproj", "{99B4E20F-370E-49E6-A87D-666B73F698C7}"
 EndProject
@@ -133,6 +133,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowTheStylus", "ShadowTheStylus\ShadowTheStylus.csproj", "{7F692DEF-B7DB-4376-B648-7DA2772A1178}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamineKeystrokes", "ExamineKeystrokes\ExamineKeystrokes.csproj", "{3129B2C7-6605-4AB2-94DC-C5681AC4D99D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 10", "Chapter 10", "{04E18925-909F-45C4-819F-CB2D1DB600DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderTheBetterEllipse", "RenderTheBetterEllipse\RenderTheBetterEllipse.csproj", "{4A44749A-221B-406F-AD68-9D198C1DE877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetMedieval", "GetMedieval\GetMedieval.csproj", "{8B7278D6-0BB2-4C67-99B2-A3E5E6CA21D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -356,6 +362,14 @@ Global
 		{3129B2C7-6605-4AB2-94DC-C5681AC4D99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3129B2C7-6605-4AB2-94DC-C5681AC4D99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3129B2C7-6605-4AB2-94DC-C5681AC4D99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A44749A-221B-406F-AD68-9D198C1DE877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A44749A-221B-406F-AD68-9D198C1DE877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A44749A-221B-406F-AD68-9D198C1DE877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A44749A-221B-406F-AD68-9D198C1DE877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7278D6-0BB2-4C67-99B2-A3E5E6CA21D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7278D6-0BB2-4C67-99B2-A3E5E6CA21D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7278D6-0BB2-4C67-99B2-A3E5E6CA21D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7278D6-0BB2-4C67-99B2-A3E5E6CA21D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -415,6 +429,8 @@ Global
 		{63651DCA-50D6-4323-AC54-FFFBD13BFD35} = {222F4C4B-E20B-439B-9DFA-2C607F1FED2A}
 		{7F692DEF-B7DB-4376-B648-7DA2772A1178} = {222F4C4B-E20B-439B-9DFA-2C607F1FED2A}
 		{3129B2C7-6605-4AB2-94DC-C5681AC4D99D} = {222F4C4B-E20B-439B-9DFA-2C607F1FED2A}
+		{4A44749A-221B-406F-AD68-9D198C1DE877} = {04E18925-909F-45C4-819F-CB2D1DB600DA}
+		{8B7278D6-0BB2-4C67-99B2-A3E5E6CA21D5} = {04E18925-909F-45C4-819F-CB2D1DB600DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}

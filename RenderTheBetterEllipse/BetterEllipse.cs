@@ -5,7 +5,7 @@ using System.Windows.Media;
 
 namespace RenderTheBetterEllipse
 {
-    class BetterEllipse : FrameworkElement
+    public class BetterEllipse : FrameworkElement
     {
         public static readonly DependencyProperty FillProperty;
         public static readonly DependencyProperty StrokeProperty;

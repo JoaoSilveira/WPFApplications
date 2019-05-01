@@ -43,7 +43,7 @@ namespace PopupContextMenu
             var locs = (TextDecorationLocation[])Enum.GetValues(typeof(TextDecorationLocation));
 
             itemDecor = new MenuItem[locs.Length];
-            for (int i = 0; i < itemDecor.Length; i++)
+            for (var i = 0; i < itemDecor.Length; i++)
             {
                 var decor = new TextDecoration();
                 decor.Location = locs[i];

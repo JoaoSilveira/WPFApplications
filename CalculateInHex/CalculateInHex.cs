@@ -36,14 +36,14 @@ namespace CalculateInHex
             grid.Margin = new Thickness(4);
             Content = grid;
 
-            for (int i = 0; i < 5; i++)
+            for (var i = 0; i < 5; i++)
             {
                 var col = new ColumnDefinition();
                 col.Width = GridLength.Auto;
                 grid.ColumnDefinitions.Add(col);
             }
 
-            for (int i = 0; i < 7; i++)
+            for (var i = 0; i < 7; i++)
             {
                 var row = new RowDefinition();
                 row.Height = GridLength.Auto;

@@ -36,7 +36,7 @@ namespace StackThirtyButtons
                 var stackChild = new StackPanel();
                 stackMain.Children.Add(stackChild);
 
-                for (int j = 0; j < 10; j++)
+                for (var j = 0; j < 10; j++)
                 {
                     var btn = new Button();
                     btn.Content = $"Button No. {i * 10 + j + 1}";

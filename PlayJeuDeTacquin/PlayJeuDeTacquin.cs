@@ -59,7 +59,7 @@ namespace PlayJeuDeTacquin
             unigrid.Columns = NumberCols;
             bord.Child = unigrid;
 
-            for (int i = 0; i < NumberRows * NumberCols - 1; i++)
+            for (var i = 0; i < NumberRows * NumberCols - 1; i++)
             {
                 var tile = new Tile();
                 tile.Text = (i + 1).ToString();
@@ -131,7 +131,7 @@ namespace PlayJeuDeTacquin
 
         private void TimerOnTick(object sender, EventArgs e)
         {
-            for (int i = 0; i < 5; i++)
+            for (var i = 0; i < 5; i++)
             {
                 MoveTile(xEmpty, yEmpty + rand.Next(3) - 1);
                 MoveTile(xEmpty + rand.Next(3) - 1, yEmpty);

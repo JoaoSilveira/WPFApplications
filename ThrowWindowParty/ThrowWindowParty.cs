@@ -24,7 +24,7 @@ namespace ThrowWindowParty
             winMain.MouseDown += WindowOnMouseDown;
             winMain.Show();
 
-            for (int i = 0; i < 2; i++)
+            for (var i = 0; i < 2; i++)
             {
                 var win = new Window();
                 win.Title = "Extra Window No. " + (i + 1);

@@ -11,7 +11,7 @@ using System.Windows.Media;
 
 namespace PrintWithMargins
 {
-    class PageMarginsDialog : Window
+    public class PageMarginsDialog : Window
     {
         enum Side
         {

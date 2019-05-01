@@ -58,7 +58,7 @@ namespace DesignAButton
             poly.Stroke = SystemColors.ControlTextBrush;
             poly.Points = new PointCollection();
 
-            for (int i = 0; i <= 100; i += 10)
+            for (var i = 0; i <= 100; i += 10)
             {
                 poly.Points.Add(new Point(i, (i + offset) % 20));
             }

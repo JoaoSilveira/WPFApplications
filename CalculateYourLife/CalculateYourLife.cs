@@ -32,14 +32,14 @@ namespace CalculateYourLife
             var grid = new Grid();
             Content = grid;
 
-            for (int i = 0; i < 3; i++)
+            for (var i = 0; i < 3; i++)
             {
                 var rowdef = new RowDefinition();
                 rowdef.Height = GridLength.Auto;
                 grid.RowDefinitions.Add(rowdef);
             }
 
-            for (int i = 0; i < 2; i++)
+            for (var i = 0; i < 2; i++)
             {
                 var coldef = new ColumnDefinition();
                 coldef.Width = GridLength.Auto;

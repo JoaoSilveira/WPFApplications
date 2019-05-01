@@ -23,21 +23,21 @@ namespace SetSpaceProperty
             var grid = new Grid();
             Content = grid;
 
-            for (int i = 0; i < 2; i++)
+            for (var i = 0; i < 2; i++)
             {
                 var row = new RowDefinition();
                 row.Height = GridLength.Auto;
                 grid.RowDefinitions.Add(row);
             }
 
-            for (int i = 0; i < spaces.Length; i++)
+            for (var i = 0; i < spaces.Length; i++)
             {
                 var col = new ColumnDefinition();
                 col.Width = GridLength.Auto;
                 grid.ColumnDefinitions.Add(col);
             }
 
-            for (int i = 0; i < spaces.Length; i++)
+            for (var i = 0; i < spaces.Length; i++)
             {
                 var btn = new SpaceButton();
                 btn.Text = $"Set Window Space to {spaces[i]}";

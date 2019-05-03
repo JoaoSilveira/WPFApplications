@@ -75,7 +75,7 @@ namespace NotepadClone
             AddViewMenu();
             AddHelpMenu();
 
-            settings = LoadSettings<NotepadCloneSettings>(strAppData);
+            settings = (NotepadCloneSettings)LoadSettings();
 
             WindowState = settings.WindowState;
             if (settings.RestoreBounds != Rect.Empty)
@@ -97,10 +97,7 @@ namespace NotepadClone
             txtbox.Focus();
         }
 
-        private T LoadSettings<T>(string strAppData)
-        {
-            return NotepadCloneSettings.Load<T>(strAppData);
-        }
+        protected virtual object LoadSettings() => NotepadCloneSettings.Load<NotepadCloneSettings>(strAppData);
 
         private void WindowOnLoaded(object sender, RoutedEventArgs e)
         {

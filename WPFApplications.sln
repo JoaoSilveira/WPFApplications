@@ -290,6 +290,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumpContentPropertyAttribut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEventDemo", "RoutedEventDemo\RoutedEventDemo.csproj", "{6BB99C1E-C4B1-456D-BB0B-D3E3773C59DB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 21", "Chapter 21", "{5D5D0143-9FA6-4E4B-850E-087D70908A77}"
+	ProjectSection(SolutionItems) = preProject
+		AnotherResourceLookupDemo.xaml = AnotherResourceLookupDemo.xaml
+		DisplayCurrentDateTime.xaml = DisplayCurrentDateTime.xaml
+		DynamicResourceDemo.xaml = DynamicResourceDemo.xaml
+		EnvironmentInfo.xaml = EnvironmentInfo.xaml
+		FontSizeResources.xaml = FontSizeResources.xaml
+		MyResources1.xaml = MyResources1.xaml
+		MyResources2.xaml = MyResources2.xaml
+		ResourceLookupDemo.xaml = ResourceLookupDemo.xaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessStaticFields", "AccessStaticFields\AccessStaticFields.csproj", "{8A25C396-1BF0-48BA-8E24-2F052AAA28BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradientBrushResourceDemo", "GradientBrushResourceDemo\GradientBrushResourceDemo.csproj", "{84A9D98F-B575-46A0-809D-89C562B20F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCommonResources", "UseCommonResources\UseCommonResources.csproj", "{C3256333-FC94-42C2-9924-E84E07E87A88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -756,6 +774,18 @@ Global
 		{6BB99C1E-C4B1-456D-BB0B-D3E3773C59DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BB99C1E-C4B1-456D-BB0B-D3E3773C59DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BB99C1E-C4B1-456D-BB0B-D3E3773C59DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A25C396-1BF0-48BA-8E24-2F052AAA28BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A25C396-1BF0-48BA-8E24-2F052AAA28BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A25C396-1BF0-48BA-8E24-2F052AAA28BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A25C396-1BF0-48BA-8E24-2F052AAA28BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A9D98F-B575-46A0-809D-89C562B20F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A9D98F-B575-46A0-809D-89C562B20F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A9D98F-B575-46A0-809D-89C562B20F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A9D98F-B575-46A0-809D-89C562B20F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3256333-FC94-42C2-9924-E84E07E87A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3256333-FC94-42C2-9924-E84E07E87A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3256333-FC94-42C2-9924-E84E07E87A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3256333-FC94-42C2-9924-E84E07E87A88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -876,6 +906,9 @@ Global
 		{15D9275E-7497-4402-BA2C-789126780390} = {EE0DC337-CE58-425B-96CF-55349F5F18A1}
 		{673A2688-7AC6-4DC9-B368-B4BAC4B904EC} = {EE0DC337-CE58-425B-96CF-55349F5F18A1}
 		{6BB99C1E-C4B1-456D-BB0B-D3E3773C59DB} = {EE0DC337-CE58-425B-96CF-55349F5F18A1}
+		{8A25C396-1BF0-48BA-8E24-2F052AAA28BF} = {5D5D0143-9FA6-4E4B-850E-087D70908A77}
+		{84A9D98F-B575-46A0-809D-89C562B20F51} = {5D5D0143-9FA6-4E4B-850E-087D70908A77}
+		{C3256333-FC94-42C2-9924-E84E07E87A88} = {5D5D0143-9FA6-4E4B-850E-087D70908A77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}

@@ -8,7 +8,7 @@ using System.Windows.Media;
 
 namespace ListColorsElegantly
 {
-    class ColorListBox : ListBox
+    public class ColorListBox : ListBox
     {
         public ColorListBox()
         {

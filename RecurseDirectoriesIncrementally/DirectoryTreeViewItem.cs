@@ -18,8 +18,8 @@ namespace RecurseDirectoriesIncrementally
             DirectoryInfo = dir;
             Text = dir.Name;
 
-            SelectedImage = new BitmapImage(new Uri("pack://application:,,,/Images/OpenFolder.png"));
-            UnselectedImage = new BitmapImage(new Uri("pack://application:,,,/Images/ClosedFolder.png"));
+            SelectedImage = new BitmapImage(new Uri("pack://application:,,,/RecurseDirectoriesIncrementally;component/Images/OpenFolder.png"));
+            UnselectedImage = new BitmapImage(new Uri("pack://application:,,,/RecurseDirectoriesIncrementally;component/Images/ClosedFolder.png"));
         }
 
         public void Populate()

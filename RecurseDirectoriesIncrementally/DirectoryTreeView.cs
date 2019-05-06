@@ -33,11 +33,11 @@ namespace RecurseDirectoriesIncrementally
                     item.Text = $"{drive.DriveType} ({drive.Name})";
 
                 if (chDrive == 'A' || chDrive == 'B')
-                    item.SelectedImage = item.UnselectedImage = new BitmapImage(new Uri("pack://application:,,,/Images/FloppyDrive.png"));
+                    item.SelectedImage = item.UnselectedImage = new BitmapImage(new Uri("pack://application:,,,/RecurseDirectoriesIncrementally;component/Images/FloppyDrive.png"));
                 else if (drive.DriveType == DriveType.CDRom)
-                    item.SelectedImage = item.UnselectedImage = new BitmapImage(new Uri("pack://application:,,,/Images/CDDrive.png"));
+                    item.SelectedImage = item.UnselectedImage = new BitmapImage(new Uri("pack://application:,,,/RecurseDirectoriesIncrementally;component/Images/CDDrive.png"));
                 else
-                    item.SelectedImage = item.UnselectedImage = new BitmapImage(new Uri("pack://application:,,,/Images/HardDrive.png"));
+                    item.SelectedImage = item.UnselectedImage = new BitmapImage(new Uri("pack://application:,,,/RecurseDirectoriesIncrementally;component/Images/HardDrive.png"));
 
                 Items.Add(item);
 

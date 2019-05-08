@@ -7,7 +7,7 @@ using System.Windows;
 
 namespace PlayJeuDeTacquin
 {
-    class Empty : FrameworkElement
+    public class Empty : FrameworkElement
     {
     }
 }

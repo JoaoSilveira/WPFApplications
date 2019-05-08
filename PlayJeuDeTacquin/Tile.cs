@@ -11,7 +11,7 @@ using System.Windows.Shapes;
 
 namespace PlayJeuDeTacquin
 {
-    class Tile : Canvas
+    public class Tile : Canvas
     {
         const int Size = 64;
         const int Bord = 6;

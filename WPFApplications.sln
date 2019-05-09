@@ -327,6 +327,32 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeuDeTacquin", "JeuDeTacqui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookReader2", "BookReader2\BookReader2.csproj", "{851A650A-181A-46EE-AB7C-0B984301893E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 23", "Chapter 23", "{CD60E87E-1495-4E01-9332-857183CC2BB5}"
+	ProjectSection(SolutionItems) = preProject
+		BindingWithDataContext.xaml = BindingWithDataContext.xaml
+		BindLabelToScrollBar.xaml = BindLabelToScrollBar.xaml
+		BindScrollBarToLabel.xaml = BindScrollBarToLabel.xaml
+		BindToTextBox.xaml = BindToTextBox.xaml
+		DaysOfWeek.xaml = DaysOfWeek.xaml
+		LongBindingPath.xaml = LongBindingPath.xaml
+		PropertyElementSyntax.xaml = PropertyElementSyntax.xaml
+		RelativeSourceDemo.xaml = RelativeSourceDemo.xaml
+		TwoBindings.xaml = TwoBindings.xaml
+		WhatSize.xaml = WhatSize.xaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomElementBinding", "CustomElementBinding\CustomElementBinding.csproj", "{6213E4CE-00C3-426B-9649-9A35C178E364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalScrollBar", "DecimalScrollBar\DecimalScrollBar.csproj", "{3043E553-7464-437E-8021-EBC52228CAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorScroll", "ColorScroll\ColorScroll.csproj", "{D77A5BD9-E618-4FAD-A25E-2CF1D3534328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalClock", "DigitalClock\DigitalClock.csproj", "{3E32E10E-886A-4A7C-9D70-E93A72774A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattedDigitalClock", "FormattedDigitalClock\FormattedDigitalClock.csproj", "{42C6AF61-DBBD-4A4A-A158-25F47553D89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentInfo2", "EnvironmentInfo2\EnvironmentInfo2.csproj", "{C2442899-0274-45F0-98BF-BC15954C7330}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -833,6 +859,30 @@ Global
 		{851A650A-181A-46EE-AB7C-0B984301893E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{851A650A-181A-46EE-AB7C-0B984301893E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{851A650A-181A-46EE-AB7C-0B984301893E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6213E4CE-00C3-426B-9649-9A35C178E364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6213E4CE-00C3-426B-9649-9A35C178E364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6213E4CE-00C3-426B-9649-9A35C178E364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6213E4CE-00C3-426B-9649-9A35C178E364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3043E553-7464-437E-8021-EBC52228CAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3043E553-7464-437E-8021-EBC52228CAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3043E553-7464-437E-8021-EBC52228CAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3043E553-7464-437E-8021-EBC52228CAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77A5BD9-E618-4FAD-A25E-2CF1D3534328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77A5BD9-E618-4FAD-A25E-2CF1D3534328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77A5BD9-E618-4FAD-A25E-2CF1D3534328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77A5BD9-E618-4FAD-A25E-2CF1D3534328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E32E10E-886A-4A7C-9D70-E93A72774A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E32E10E-886A-4A7C-9D70-E93A72774A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E32E10E-886A-4A7C-9D70-E93A72774A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E32E10E-886A-4A7C-9D70-E93A72774A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C6AF61-DBBD-4A4A-A158-25F47553D89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C6AF61-DBBD-4A4A-A158-25F47553D89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C6AF61-DBBD-4A4A-A158-25F47553D89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C6AF61-DBBD-4A4A-A158-25F47553D89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2442899-0274-45F0-98BF-BC15954C7330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2442899-0274-45F0-98BF-BC15954C7330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2442899-0274-45F0-98BF-BC15954C7330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2442899-0274-45F0-98BF-BC15954C7330}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -963,6 +1013,12 @@ Global
 		{D1BCD631-D16B-4999-917A-FC2E38596B39} = {5768E82E-7177-45E6-92E1-76274CD4AD11}
 		{CB14F836-FC5E-4AB7-8D48-4CF0393C9A3E} = {5768E82E-7177-45E6-92E1-76274CD4AD11}
 		{851A650A-181A-46EE-AB7C-0B984301893E} = {5768E82E-7177-45E6-92E1-76274CD4AD11}
+		{6213E4CE-00C3-426B-9649-9A35C178E364} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
+		{3043E553-7464-437E-8021-EBC52228CAC5} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
+		{D77A5BD9-E618-4FAD-A25E-2CF1D3534328} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
+		{3E32E10E-886A-4A7C-9D70-E93A72774A96} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
+		{42C6AF61-DBBD-4A4A-A158-25F47553D89B} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
+		{C2442899-0274-45F0-98BF-BC15954C7330} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}

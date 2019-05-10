@@ -353,6 +353,30 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattedDigitalClock", "Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentInfo2", "EnvironmentInfo2\EnvironmentInfo2.csproj", "{C2442899-0274-45F0-98BF-BC15954C7330}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 24", "Chapter 24", "{02723917-1A6E-4CEA-AFED-546311D666CF}"
+	ProjectSection(SolutionItems) = preProject
+		BasedOnStyle.xaml = BasedOnStyle.xaml
+		BasedOnTargetType.xaml = BasedOnTargetType.xaml
+		ButtonWithLocalStyle.xaml = ButtonWithLocalStyle.xaml
+		DocumentStyles.xaml = DocumentStyles.xaml
+		DrawGrid.xaml = DrawGrid.xaml
+		GraphicsStyles.xaml = GraphicsStyles.xaml
+		MultiDataTriggerDemo.xaml = MultiDataTriggerDemo.xaml
+		MultiTriggerDemo.xaml = MultiTriggerDemo.xaml
+		SetterWithBinding.xaml = SetterWithBinding.xaml
+		StylesWithSameKeys.xaml = StylesWithSameKeys.xaml
+		StylesWithTargetTypes.xaml = StylesWithTargetTypes.xaml
+		StyleWithDataTrigger.xaml = StyleWithDataTrigger.xaml
+		StyleWithMultipleButtons.xaml = StyleWithMultipleButtons.xaml
+		StyleWithMultipleElements.xaml = StyleWithMultipleElements.xaml
+		StyleWithPropertyElement.xaml = StyleWithPropertyElement.xaml
+		StyleWithResource.xaml = StyleWithResource.xaml
+		StyleWithTriggers.xaml = StyleWithTriggers.xaml
+		TargetTypeDerivatives.xaml = TargetTypeDerivatives.xaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSetterDemo", "EventSetterDemo\EventSetterDemo.csproj", "{F7CCFEC3-67F2-4C92-9D8C-A55F69576241}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -883,6 +907,10 @@ Global
 		{C2442899-0274-45F0-98BF-BC15954C7330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2442899-0274-45F0-98BF-BC15954C7330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2442899-0274-45F0-98BF-BC15954C7330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CCFEC3-67F2-4C92-9D8C-A55F69576241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CCFEC3-67F2-4C92-9D8C-A55F69576241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CCFEC3-67F2-4C92-9D8C-A55F69576241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CCFEC3-67F2-4C92-9D8C-A55F69576241}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1019,6 +1047,7 @@ Global
 		{3E32E10E-886A-4A7C-9D70-E93A72774A96} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
 		{42C6AF61-DBBD-4A4A-A158-25F47553D89B} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
 		{C2442899-0274-45F0-98BF-BC15954C7330} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
+		{F7CCFEC3-67F2-4C92-9D8C-A55F69576241} = {02723917-1A6E-4CEA-AFED-546311D666CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}

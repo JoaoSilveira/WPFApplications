@@ -1,0 +1,19 @@
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Control.FontSize" Value="24"/>
+            <Setter Property="Control.Foreground" Value="Blue"/>
+        </Style>
+
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="Control.Foreground" Value="Red"/>
+        </Style>
+    </StackPanel.Resources>
+
+    <Button>Button Number 1</Button>
+    <TextBlock>Button Number 2</TextBlock>
+    <Button>
+        <TextBlock>Button Number 3</TextBlock>
+    </Button>
+</StackPanel>

@@ -379,13 +379,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSetterDemo", "EventSet
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 25", "Chapter 25", "{DBC78DCC-4CF4-4C3A-9938-3BAD086D7ADE}"
 	ProjectSection(SolutionItems) = preProject
+		AutoTemplateSelection.xaml = AutoTemplateSelection.xaml
 		ButtonWithTemplate.xaml = ButtonWithTemplate.xaml
 		CircledRadioButtons.xaml = CircledRadioButtons.xaml
+		ListBoxWithItemsPanel.xaml = ListBoxWithItemsPanel.xaml
 		ResourceTemplate.xaml = ResourceTemplate.xaml
 		ToggleSwitch.xaml = ToggleSwitch.xaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumpControlTemplate", "DumpControlTemplate\DumpControlTemplate.csproj", "{0FF6496A-E878-43E4-B44E-D4019F96C53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentTemplateDemo", "ContentTemplateDemo\ContentTemplateDemo.csproj", "{86890B90-DB2E-450D-A036-62055E30E1C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectDataTemplate", "SelectDataTemplate\SelectDataTemplate.csproj", "{D5A0B87B-3AF5-4A0D-9765-EEB39171CE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggerDataTemplate", "TriggerDataTemplate\TriggerDataTemplate.csproj", "{048D2C82-F896-4AC6-8C45-AC9E02B8E867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorListBoxTemplate", "ColorListBoxTemplate\ColorListBoxTemplate.csproj", "{28862381-EB16-42C5-9481-536748DF9704}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -925,6 +935,22 @@ Global
 		{0FF6496A-E878-43E4-B44E-D4019F96C53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF6496A-E878-43E4-B44E-D4019F96C53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF6496A-E878-43E4-B44E-D4019F96C53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86890B90-DB2E-450D-A036-62055E30E1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86890B90-DB2E-450D-A036-62055E30E1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86890B90-DB2E-450D-A036-62055E30E1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86890B90-DB2E-450D-A036-62055E30E1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A0B87B-3AF5-4A0D-9765-EEB39171CE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A0B87B-3AF5-4A0D-9765-EEB39171CE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A0B87B-3AF5-4A0D-9765-EEB39171CE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A0B87B-3AF5-4A0D-9765-EEB39171CE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048D2C82-F896-4AC6-8C45-AC9E02B8E867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048D2C82-F896-4AC6-8C45-AC9E02B8E867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048D2C82-F896-4AC6-8C45-AC9E02B8E867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048D2C82-F896-4AC6-8C45-AC9E02B8E867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28862381-EB16-42C5-9481-536748DF9704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28862381-EB16-42C5-9481-536748DF9704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28862381-EB16-42C5-9481-536748DF9704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28862381-EB16-42C5-9481-536748DF9704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1063,6 +1089,10 @@ Global
 		{C2442899-0274-45F0-98BF-BC15954C7330} = {CD60E87E-1495-4E01-9332-857183CC2BB5}
 		{F7CCFEC3-67F2-4C92-9D8C-A55F69576241} = {02723917-1A6E-4CEA-AFED-546311D666CF}
 		{0FF6496A-E878-43E4-B44E-D4019F96C53E} = {DBC78DCC-4CF4-4C3A-9938-3BAD086D7ADE}
+		{86890B90-DB2E-450D-A036-62055E30E1C9} = {DBC78DCC-4CF4-4C3A-9938-3BAD086D7ADE}
+		{D5A0B87B-3AF5-4A0D-9765-EEB39171CE89} = {DBC78DCC-4CF4-4C3A-9938-3BAD086D7ADE}
+		{048D2C82-F896-4AC6-8C45-AC9E02B8E867} = {DBC78DCC-4CF4-4C3A-9938-3BAD086D7ADE}
+		{28862381-EB16-42C5-9481-536748DF9704} = {DBC78DCC-4CF4-4C3A-9938-3BAD086D7ADE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}

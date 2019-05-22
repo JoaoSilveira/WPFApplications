@@ -5,6 +5,11 @@
         Title="Multi-Record Data Entry"
         SizeToContent="WidthAndHeight"
         ResizeMode="CanMinimize">
+    <Window.CommandBindings>
+        <CommandBinding Command="New" Executed="NewOnExecuted"/>
+        <CommandBinding Command="Open" Executed="OpenOnExecuted"/>
+        <CommandBinding Command="Save" Executed="SaveOnExecuted"/>
+    </Window.CommandBindings>
     <DockPanel Name="dock">
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
@@ -23,6 +28,13 @@
                         <Setter Property="Margin" Value="6"/>
                     </Style>
                 </UniformGrid.Resources>
+
+                <Button Name="btnFirst" Content="First" Click="FirstOnClick"/>
+                <Button Name="btnPrev" Content="Pervious" Click="PreviousOnClick"/>
+                <Button Name="btnNext" Content="Next" Click="NextOnClick"/>
+                <Button Name="btnLast" Content="Last" Click="LastOnClick"/>
+                <Button Name="btnAdd" Content="Add" Click="AddOnClick"/>
+                <Button Name="btnDel" Content="Delete" Click="DeleteOnClick"/>
             </UniformGrid>
         </StackPanel>
     </DockPanel>

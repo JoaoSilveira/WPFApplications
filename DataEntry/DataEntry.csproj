@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C696D59-31AA-42C3-A713-EDFE2DBF805E}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>MultiRecordDataEntry</RootNamespace>
-    <AssemblyName>MultiRecordDataEntry</AssemblyName>
+    <ProjectGuid>{0A697719-AD69-48C7-BB32-203F18A849D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DataEntry</RootNamespace>
+    <AssemblyName>DataEntry</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,36 +32,35 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CreateDatePicker\CreateDatePicker.csproj">
-      <Project>{5e9f6f14-140e-41e4-953b-12e01fe38da0}</Project>
-      <Name>CreateDatePicker</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SingleRecordDataEntry\SingleRecordDataEntry.csproj">
-      <Project>{1943c08d-5ce0-495c-b4a8-de4240e196ab}</Project>
-      <Name>SingleRecordDataEntry</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="MultiRecordDataEntryWindow.cs" />
-    <Compile Include="People.cs" />
+    <Compile Include="NavigationBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Xaml" />
-    <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="MultiRecordDataEntryWindow.xaml">
+    <Page Include="NavigationBar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DataContainer_MoveFirstHS.png" />
+    <Resource Include="DataContainer_MoveLastHS.png" />
+    <Resource Include="DataContainer_MoveNextHS.png" />
+    <Resource Include="DataContainer_MovePreviousHS.png" />
+    <Resource Include="DataContainer_NewRecordHS.png" />
+    <Resource Include="DeleteHS.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

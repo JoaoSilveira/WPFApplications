@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C696D59-31AA-42C3-A713-EDFE2DBF805E}</ProjectGuid>
+    <ProjectGuid>{98D58706-4151-4473-A092-A93E3574C104}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MultiRecordDataEntry</RootNamespace>
-    <AssemblyName>MultiRecordDataEntry</AssemblyName>
+    <RootNamespace>DataEntryWithNavigation</RootNamespace>
+    <AssemblyName>DataEntryWithNavigation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,9 +36,27 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataEntryWithNavigation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\CreateDatePicker\CreateDatePicker.csproj">
       <Project>{5e9f6f14-140e-41e4-953b-12e01fe38da0}</Project>
       <Name>CreateDatePicker</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataEntry\DataEntry.csproj">
+      <Project>{0a697719-ad69-48c7-bb32-203f18a849d3}</Project>
+      <Name>DataEntry</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MultiRecordDataEntry\MultiRecordDataEntry.csproj">
+      <Project>{4c696d59-31aa-42c3-a713-edfe2dbf805e}</Project>
+      <Name>MultiRecordDataEntry</Name>
     </ProjectReference>
     <ProjectReference Include="..\SingleRecordDataEntry\SingleRecordDataEntry.csproj">
       <Project>{1943c08d-5ce0-495c-b4a8-de4240e196ab}</Project>
@@ -46,19 +64,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MultiRecordDataEntryWindow.cs" />
-    <Compile Include="People.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
-    <Reference Include="System" />
-    <Reference Include="System.Xaml" />
-    <Reference Include="System.Xml" />
-    <Reference Include="WindowsBase" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="MultiRecordDataEntryWindow.xaml">
+    <Page Include="DataEntryWithNavigation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

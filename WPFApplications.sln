@@ -422,6 +422,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterWithText", "FilterWit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxWithGroups", "ListBoxWithGroups\ListBoxWithGroups.csproj", "{151D707E-1839-4CFA-9C65-797C3C79C763}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 27", "Chapter 27", "{819ECB2E-287A-44A3-9C36-5ACC7C7D94C4}"
+	ProjectSection(SolutionItems) = preProject
+		DashCaps.xaml = DashCaps.xaml
+		EllipseWithStyledLines.xaml = EllipseWithStyledLines.xaml
+		EvenOddDemo.xaml = EvenOddDemo.xaml
+		LineCaps.xaml = LineCaps.xaml
+		LineJoins.xaml = LineJoins.xaml
+		OneTwoTwoOne.xaml = OneTwoTwoOne.xaml
+		PenProperties.xaml = PenProperties.xaml
+		ScalableFace.xaml = ScalableFace.xaml
+		SelfPortraitSansGlasses.xaml = SelfPortraitSansGlasses.xaml
+		TwoFigures.xaml = TwoFigures.xaml
+		TwoStars.xaml = TwoStars.xaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SineWave", "SineWave\SineWave.csproj", "{3D48D01C-3239-40DD-B798-23FF64A4896A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiral", "Spiral\Spiral.csproj", "{802A7E1E-3102-430A-ADCE-34E4BEBDE22F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1020,6 +1039,14 @@ Global
 		{151D707E-1839-4CFA-9C65-797C3C79C763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{151D707E-1839-4CFA-9C65-797C3C79C763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{151D707E-1839-4CFA-9C65-797C3C79C763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D48D01C-3239-40DD-B798-23FF64A4896A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D48D01C-3239-40DD-B798-23FF64A4896A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D48D01C-3239-40DD-B798-23FF64A4896A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D48D01C-3239-40DD-B798-23FF64A4896A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802A7E1E-3102-430A-ADCE-34E4BEBDE22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802A7E1E-3102-430A-ADCE-34E4BEBDE22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802A7E1E-3102-430A-ADCE-34E4BEBDE22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802A7E1E-3102-430A-ADCE-34E4BEBDE22F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1173,6 +1200,8 @@ Global
 		{C163D882-0BB4-4B1E-8BF2-6596CF9318B2} = {435F8D86-93A5-48B4-8239-A776A5F3B88E}
 		{BDECA483-4869-452F-B2BF-9F0D12074410} = {435F8D86-93A5-48B4-8239-A776A5F3B88E}
 		{151D707E-1839-4CFA-9C65-797C3C79C763} = {435F8D86-93A5-48B4-8239-A776A5F3B88E}
+		{3D48D01C-3239-40DD-B798-23FF64A4896A} = {819ECB2E-287A-44A3-9C36-5ACC7C7D94C4}
+		{802A7E1E-3102-430A-ADCE-34E4BEBDE22F} = {819ECB2E-287A-44A3-9C36-5ACC7C7D94C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}

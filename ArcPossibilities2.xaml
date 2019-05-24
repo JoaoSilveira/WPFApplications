@@ -1,0 +1,41 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Path Stroke="Red" StrokeThickness="3">
+        <Path.Data>
+            <PathGeometry>
+                <PathFigure StartPoint="144 144">
+                    <ArcSegment Point="240 240" Size="144 96" RotationAngle="45"/>
+                </PathFigure>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+
+    <Path Stroke="Blue" StrokeThickness="3">
+        <Path.Data>
+            <PathGeometry>
+                <PathFigure StartPoint="144 144">
+                    <ArcSegment Point="240 240" Size="144 96" IsLargeArc="True" RotationAngle="45"/>
+                </PathFigure>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+
+    <Path Stroke="Green" StrokeThickness="3">
+        <Path.Data>
+            <PathGeometry>
+                <PathFigure StartPoint="144 144">
+                    <ArcSegment Point="240 240" Size="144 96" SweepDirection="Clockwise" RotationAngle="45"/>
+                </PathFigure>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+
+    <Path Stroke="Purple" StrokeThickness="3">
+        <Path.Data>
+            <PathGeometry>
+                <PathFigure StartPoint="144 144">
+                    <ArcSegment Point="240 240" Size="144 96" SweepDirection="Clockwise" IsLargeArc="True" RotationAngle="45"/>
+                </PathFigure>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+</Canvas>

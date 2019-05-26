@@ -472,6 +472,33 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BezierReproduce", "BezierRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextGeometryDemo", "TextGeometryDemo\TextGeometryDemo.csproj", "{DAE8E4C9-95A6-468F-BE63-72E5BCBCD7B5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 29", "Chapter 29", "{1B720186-5751-428F-B525-E31C82966487}"
+	ProjectSection(SolutionItems) = preProject
+		CanvasModes.xaml = CanvasModes.xaml
+		EmbossAndEngrave.xaml = EmbossAndEngrave.xaml
+		EmpiricalTiltedTextShadow.xaml = EmpiricalTiltedTextShadow.xaml
+		Flower.xaml = Flower.xaml
+		GeometryTransformDemo.xaml = GeometryTransformDemo.xaml
+		InteractiveRotateTransform.xaml = InteractiveRotateTransform.xaml
+		InteractiveScaleTransform.xaml = InteractiveScaleTransform.xaml
+		InteractiveSkewTransform.xaml = InteractiveSkewTransform.xaml
+		InteractiveTranslateTransform.xaml = InteractiveTranslateTransform.xaml
+		ReflectedText.xaml = ReflectedText.xaml
+		RenderTransformAndLayoutTransform.xaml = RenderTransformAndLayoutTransform.xaml
+		RotateAndReflect.xaml = RotateAndReflect.xaml
+		RotatedButtons.xaml = RotatedButtons.xaml
+		TextDropShadow.xaml = TextDropShadow.xaml
+		TiltedTextShadow.xaml = TiltedTextShadow.xaml
+		TiltedTextShadow2.xaml = TiltedTextShadow2.xaml
+		TransformedButtons.xaml = TransformedButtons.xaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformedButtons", "TransformedButtons\TransformedButtons.csproj", "{558F5FB8-9AE3-44CF-9C43-0BB34FE33B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelAndSpokes", "WheelAndSpokes\WheelAndSpokes.csproj", "{3E3FFFDE-54E0-46AB-A00E-CC7E2A94B4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatedText", "RotatedText\RotatedText.csproj", "{15707F94-D8F9-4DA3-810E-49DAFF2932DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1090,6 +1117,18 @@ Global
 		{DAE8E4C9-95A6-468F-BE63-72E5BCBCD7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAE8E4C9-95A6-468F-BE63-72E5BCBCD7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAE8E4C9-95A6-468F-BE63-72E5BCBCD7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558F5FB8-9AE3-44CF-9C43-0BB34FE33B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558F5FB8-9AE3-44CF-9C43-0BB34FE33B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558F5FB8-9AE3-44CF-9C43-0BB34FE33B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558F5FB8-9AE3-44CF-9C43-0BB34FE33B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3FFFDE-54E0-46AB-A00E-CC7E2A94B4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3FFFDE-54E0-46AB-A00E-CC7E2A94B4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3FFFDE-54E0-46AB-A00E-CC7E2A94B4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3FFFDE-54E0-46AB-A00E-CC7E2A94B4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15707F94-D8F9-4DA3-810E-49DAFF2932DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15707F94-D8F9-4DA3-810E-49DAFF2932DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15707F94-D8F9-4DA3-810E-49DAFF2932DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15707F94-D8F9-4DA3-810E-49DAFF2932DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1248,6 +1287,9 @@ Global
 		{E0F4212A-F737-4E1C-A89E-D7C8CD71E665} = {811C0CA9-94ED-48A4-B0C1-99BE3743948E}
 		{0996EEFD-3BD7-464C-AD20-235232E3E2B4} = {811C0CA9-94ED-48A4-B0C1-99BE3743948E}
 		{DAE8E4C9-95A6-468F-BE63-72E5BCBCD7B5} = {811C0CA9-94ED-48A4-B0C1-99BE3743948E}
+		{558F5FB8-9AE3-44CF-9C43-0BB34FE33B6E} = {1B720186-5751-428F-B525-E31C82966487}
+		{3E3FFFDE-54E0-46AB-A00E-CC7E2A94B4A4} = {1B720186-5751-428F-B525-E31C82966487}
+		{15707F94-D8F9-4DA3-810E-49DAFF2932DD} = {1B720186-5751-428F-B525-E31C82966487}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}

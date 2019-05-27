@@ -499,6 +499,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelAndSpokes", "WheelAndS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatedText", "RotatedText\RotatedText.csproj", "{15707F94-D8F9-4DA3-810E-49DAFF2932DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 30", "Chapter 30", "{EB98D96E-1681-4D47-A694-9B3257AB1341}"
+	ProjectSection(SolutionItems) = preProject
+		EnlargeButtonInXaml.xaml = EnlargeButtonInXaml.xaml
+		EnlargeButtonsInXaml.xaml = EnlargeButtonsInXaml.xaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnlargeButtonWithTimer", "EnlargeButtonWithTimer\EnlargeButtonWithTimer.csproj", "{6D7874BD-3B77-4CB1-909C-0468DE2E4129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnlargeButtonWithAnimation", "EnlargeButtonWithAnimation\EnlargeButtonWithAnimation.csproj", "{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1129,6 +1139,14 @@ Global
 		{15707F94-D8F9-4DA3-810E-49DAFF2932DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15707F94-D8F9-4DA3-810E-49DAFF2932DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15707F94-D8F9-4DA3-810E-49DAFF2932DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D7874BD-3B77-4CB1-909C-0468DE2E4129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7874BD-3B77-4CB1-909C-0468DE2E4129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7874BD-3B77-4CB1-909C-0468DE2E4129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7874BD-3B77-4CB1-909C-0468DE2E4129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1290,6 +1308,8 @@ Global
 		{558F5FB8-9AE3-44CF-9C43-0BB34FE33B6E} = {1B720186-5751-428F-B525-E31C82966487}
 		{3E3FFFDE-54E0-46AB-A00E-CC7E2A94B4A4} = {1B720186-5751-428F-B525-E31C82966487}
 		{15707F94-D8F9-4DA3-810E-49DAFF2932DD} = {1B720186-5751-428F-B525-E31C82966487}
+		{6D7874BD-3B77-4CB1-909C-0468DE2E4129} = {EB98D96E-1681-4D47-A694-9B3257AB1341}
+		{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B} = {EB98D96E-1681-4D47-A694-9B3257AB1341}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}

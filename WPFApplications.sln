@@ -501,8 +501,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatedText", "RotatedText\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 30", "Chapter 30", "{EB98D96E-1681-4D47-A694-9B3257AB1341}"
 	ProjectSection(SolutionItems) = preProject
+		AnimatedTextTransform.xaml = AnimatedTextTransform.xaml
+		ColorRadioButtons.xaml = ColorRadioButtons.xaml
+		ControllingTheStoryboard.xaml = ControllingTheStoryboard.xaml
 		EnlargeButtonInXaml.xaml = EnlargeButtonInXaml.xaml
 		EnlargeButtonsInXaml.xaml = EnlargeButtonsInXaml.xaml
+		FishEyeButtons1.xaml = FishEyeButtons1.xaml
+		FishEyeButtons2.xaml = FishEyeButtons2.xaml
+		RenderTransformVersusLayoutTransform.xaml = RenderTransformVersusLayoutTransform.xaml
+		ShakingButton.xaml = ShakingButton.xaml
+		TotalEclipseOfTheSun.xaml = TotalEclipseOfTheSun.xaml
+		TwoAnimations.xaml = TwoAnimations.xaml
+		WiggleWaggle.xaml = WiggleWaggle.xaml
+		WiggleWaggleAndExplode.xaml = WiggleWaggleAndExplode.xaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnlargeButtonWithTimer", "EnlargeButtonWithTimer\EnlargeButtonWithTimer.csproj", "{6D7874BD-3B77-4CB1-909C-0468DE2E4129}"

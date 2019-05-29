@@ -508,8 +508,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 30", "Chapter 30", 
 		EnlargeButtonsInXaml.xaml = EnlargeButtonsInXaml.xaml
 		FishEyeButtons1.xaml = FishEyeButtons1.xaml
 		FishEyeButtons2.xaml = FishEyeButtons2.xaml
+		Pulse.xaml = Pulse.xaml
 		RenderTransformVersusLayoutTransform.xaml = RenderTransformVersusLayoutTransform.xaml
 		ShakingButton.xaml = ShakingButton.xaml
+		SquaringTheCircle.xaml = SquaringTheCircle.xaml
 		TotalEclipseOfTheSun.xaml = TotalEclipseOfTheSun.xaml
 		TwoAnimations.xaml = TwoAnimations.xaml
 		WiggleWaggle.xaml = WiggleWaggle.xaml
@@ -519,6 +521,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnlargeButtonWithTimer", "EnlargeButtonWithTimer\EnlargeButtonWithTimer.csproj", "{6D7874BD-3B77-4CB1-909C-0468DE2E4129}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnlargeButtonWithAnimation", "EnlargeButtonWithAnimation\EnlargeButtonWithAnimation.csproj", "{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderTheAnimation", "RenderTheAnimation\RenderTheAnimation.csproj", "{C2E2E03C-19CE-45AC-BA0E-D17B78ECAF6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1158,6 +1162,10 @@ Global
 		{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E2E03C-19CE-45AC-BA0E-D17B78ECAF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E2E03C-19CE-45AC-BA0E-D17B78ECAF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E2E03C-19CE-45AC-BA0E-D17B78ECAF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E2E03C-19CE-45AC-BA0E-D17B78ECAF6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1321,6 +1329,7 @@ Global
 		{15707F94-D8F9-4DA3-810E-49DAFF2932DD} = {1B720186-5751-428F-B525-E31C82966487}
 		{6D7874BD-3B77-4CB1-909C-0468DE2E4129} = {EB98D96E-1681-4D47-A694-9B3257AB1341}
 		{C96E3266-B2CB-4A83-8DE8-18327C1CCF8B} = {EB98D96E-1681-4D47-A694-9B3257AB1341}
+		{C2E2E03C-19CE-45AC-BA0E-D17B78ECAF6B} = {EB98D96E-1681-4D47-A694-9B3257AB1341}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}

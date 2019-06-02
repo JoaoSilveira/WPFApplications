@@ -556,9 +556,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplineKeyFrameExperiment", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 31", "Chapter 31", "{230C56D3-C309-4218-84A4-DA9EC3C1471F}"
 	ProjectSection(SolutionItems) = preProject
+		AnimatedDrawingBrush.xaml = AnimatedDrawingBrush.xaml
 		ConvertedBitmapChain.xaml = ConvertedBitmapChain.xaml
+		FishBrush.xaml = FishBrush.xaml
 		ImageDisplaysVectorGraphics.xaml = ImageDisplaysVectorGraphics.xaml
 		PictureAndFrame.xaml = PictureAndFrame.xaml
+		ReflectedControls.xaml = ReflectedControls.xaml
+		SimpleDrawingBrush.xaml = SimpleDrawingBrush.xaml
 		SimpleImageBrush.xaml = SimpleImageBrush.xaml
 		SimpleVisualBrush.xaml = SimpleVisualBrush.xaml
 	EndProjectSection
@@ -570,6 +574,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateIndexedBitmap", "CreateIndexedBitmap\CreateIndexedBitmap.csproj", "{499064B6-737F-419B-88BE-AFD66A72E7F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateFullColorBitmap", "CreateFullColorBitmap\CreateFullColorBitmap.csproj", "{079857C3-D861-48C0-8FFF-930BE16C49C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridClock", "HybridClock\HybridClock.csproj", "{1BE0FB32-CE85-4E0B-86CD-5DBEB523961D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1237,6 +1243,10 @@ Global
 		{079857C3-D861-48C0-8FFF-930BE16C49C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{079857C3-D861-48C0-8FFF-930BE16C49C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{079857C3-D861-48C0-8FFF-930BE16C49C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE0FB32-CE85-4E0B-86CD-5DBEB523961D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE0FB32-CE85-4E0B-86CD-5DBEB523961D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE0FB32-CE85-4E0B-86CD-5DBEB523961D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE0FB32-CE85-4E0B-86CD-5DBEB523961D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1407,6 +1417,7 @@ Global
 		{360D8DD9-FAC7-4ECE-8CF9-86B96937A849} = {230C56D3-C309-4218-84A4-DA9EC3C1471F}
 		{499064B6-737F-419B-88BE-AFD66A72E7F5} = {230C56D3-C309-4218-84A4-DA9EC3C1471F}
 		{079857C3-D861-48C0-8FFF-930BE16C49C7} = {230C56D3-C309-4218-84A4-DA9EC3C1471F}
+		{1BE0FB32-CE85-4E0B-86CD-5DBEB523961D} = {230C56D3-C309-4218-84A4-DA9EC3C1471F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFC48BB-264E-41DC-BF69-052DBAB3553D}
